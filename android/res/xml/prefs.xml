@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:title="Interface">
+                <CheckBoxPreference
+                        android:title="Fullscreen"
+                        android:defaultValue="true"
+                        android:summary="App will utilize entire screen"
+                        android:key="fullscreen" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Connection">
+	       	<EditTextPreference
+	                android:title="Port"
+	                android:summary="Broadcast port"
+	                android:defaultValue="12333"
+	                android:key="port" />
+	       	<CheckBoxPreference
+	                   android:title="Auto Locate"
+	                   android:defaultValue="true"
+	                   android:summary="Broadcast signal"
+	                   android:key="autolocate" />
+	       	<EditTextPreference
+	                android:title="Host"
+	                android:summary="Host Address"
+	                android:defaultValue="192.168.1.101"
+	                android:key="host" />
+        </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">S-Pen Digitizer</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_clear">Clear</string>
+    <string name="title_activity_main">S-Pen Digitizer</string>
+    <string name="set_preferences">S-Pen Digitizer Preferences</string>
+    <string-array name="listArray">
+        <item >123</item>
+        <item >321</item>
+    </string-array>
+    <string-array name="listValues">
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+
+</resources>
